@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bibliothéque numérique</title>
+	<!-- Lien css -->
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <!-- bootstrap -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	    <!-- font-awesome-icon -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+	    <script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+			    document.getElementById("myNavbar").classList.add("navbar-colored");
+			  } else {
+			    document.getElementById("myNavbar").classList.remove("navbar-colored");
+			  }
+			}
+		</script>
+</head>
+<body class="">
+	<header class="header_wrapper position-relative">
+	   <!-- Navbar section  -->
+		   	<nav class="navbar navbar-expand-lg fixed-top py-0" id="myNavbar">
+			  	<div class="container">
+				    <a class="navbar-brand w-25" href="#">
+				    	<img src="IMG/logo3.png" class="shadow m-0 border" width="55" alt="logo">
+				    </a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				     	 <i class="fas fa-stream"> menu</i>
+			   		</button>
+			   		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					    <ul class="navbar-nav menu-navbar-nav">
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" aria-current="page" href="#">Home</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" href="#about-us"><span class="text-uppercase">à</span> propos</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" href="#portfolio">Aperçu</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" href="#service">Services</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" href="#team">Team</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-white fw-bold mx-md-1" href="#contact">Contact</a>
+						    </li>
+					    </ul>
+			    	</div>
+			   </div>
+			</nav>
+			
+			<div class="text-center position-absolute translate-middle titre">
+			<!-- <div class="text-center position-absolute top-50 start-50 translate-middle titre">	 -->
+				
+				<h2 class="text-center text-uppercase text-white fs-md-1">
+					bienvenu dans votre bibliothéque numérique
+				</h2>
+				<p class="text-center text-uppercase text-white fs-4 fw-bold">	
+					Des Livres pour Chaque Instant, des Mots pour Chaque Émotion
+				</p>
+				<a href="#about-us" class="text-white fs-1">
+					<i class="bi bi-arrow-down-circle"></i>
+				</a>
+			</div>
+			
+	</header>
+
+
+<!-- ==========================================
+				   SECTION ABOUT-US
+	 ================        ================== -->
+	<section id="about-us" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 d-flex flex-column justify-content-between">
+					<h2>À Propos</h2>
+					<p>Bienvenue sur Notre Bibliothèque Numérique, un lieu où la magie des mots rencontre le monde numérique. Notre bibliothèque s'engage à fournir une expérience de lecture en ligne exceptionnelle tout en favorisant l'accès équitable à la connaissance et à la culture. Découvrez ce qui rend Notre Bibliothèque unique.</p>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-start bouton-about">
+						<button class="btn rounded-pill px-4" type="button"><a href="#contact" class="text-light">Contact us  ></a></button>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex flex-column justify-content-between">
+					<div class="col-md-12">
+						<h3>Notre Mission</h3>
+						<p>Notre mission est de rendre la lecture accessible à tous, où que vous soyez. Nous croyons au pouvoir des livres pour éduquer, inspirer et divertir, et nous nous efforçons de créer une collection diversifiée qui répond aux goûts de chacun.</p>
+					</div>
+					<div class="col-md-12">
+						<h3>Ce que Nous Offrons</h3>
+						<p>Parcourez notre vaste collection de livres numériques, allant des classiques intemporels aux œuvres contemporaines.</p>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex flex-column justify-content-between">
+					<div class="col-md-12">
+						<h3>Notre Engagement</h3>
+						<p>Nous nous engageons à fournir une plateforme de lecture en ligne sécurisée, conviviale et pleine de ressources pour les amateurs de livres. Chaque livre que nous ajoutons à notre collection est soigneusement sélectionné pour sa qualité et son potentiel à captiver nos lecteurs.</p>
+					</div>
+					<div class="col-md-12">
+						<h3 class="text-capitalize">à vous de jouer</h3>
+						<p>Explorez Notre Bibliothèque Numérique dès maintenant et plongez dans un monde de découvertes littéraires !</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>	
+
+<!-- ==========================================
+				  SECTION APERCU
+	 ================        ================== -->	 
+	<section id="portfolio" class="container py-3">
+			<h2 class="text-center text-capitalize">Aperçu</h2>
+			<p class="text-center py-3">Explorez un aperçu de Notre Bibliothèque Numérique et plongez dans un monde de connaissances, d'aventures et de découvertes littéraires. Nous avons soigneusement sélectionné quelques-unes des œuvres les plus captivantes disponibles dans notre collection. Découvrez ces trésors littéraires à travers des images attrayantes et laissez-vous inspirer pour plonger plus profondément dans notre bibliothèque.</p>
+				
+			<div class="row my-4 gy-4 gx-md-4 text-center">
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+				<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>
+		 		<div class="col-md-6 col-lg-4">
+		 			<a href=""><img src="IMG/11min.jpg" class="img-fluid"></a> 
+		 		</div>			</div>
+	</section>
+
+<!-- ==========================================
+				   SECTION SEVICES
+	 ================        ================== -->
+	<section id="service" class="py-3">
+		<div class="container">
+			<h2 class="text-center">Services</h2>
+			<p class="text-center  py-4">
+			Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. <br>Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+			</p>
+			<div class="row gy-4 d-md-flex flex-row justify-content-between gy-lg-3">
+				<div class="p-1 col-12 col-md-3">
+					<div class="h-100 p-1 shadow rounded">
+					<h3 class="py-3 fs-5 text-center">
+						<i class="bi bi-bag fw-bold fs-5 me-2"></i>Vente de livres
+					</h3>
+					<p class="text-center">Découvrez une collection exceptionnelle de livres numériques dans Notre Bibliothèque Numérique. Acheter un livre est simple et rapide, offrant aux lecteurs un accès instantané à des œuvres captivantes.</p>
+					</div>
+				</div>
+				<div class="p-1 col-12 col-md-3">
+					<div class="h-100 p-1 shadow rounded">
+					<h3 class="py-3 fs-5 text-center">
+						<i class="bi bi-arrow-down-up fw-bold fs-5 me-2"></i>Prêt
+					</h3>
+					<p class="text-center">Emprunter un livre dans Notre Bibliothèque Numérique est une excellente façon d'explorer de nouvelles œuvres sans engagement à long terme.</p>
+					</div>
+				</div>
+				<div class="p-1 col-12 col-md-3">
+					<div class="h-100 p-1 shadow rounded">
+					<h3 class="py-3 fs-5 text-center">
+						<i class="bi bi-download fw-bold fs-5 me-2"></i>Téléchargement
+					</h3>
+					<p class="text-center">Profitez de vos livres préférés où que vous soyez en les téléchargeant depuis Notre Bibliothèque Numérique.</p>
+					</div>
+				</div>
+				<div class="p-1 col-12 col-md-3">
+					<div class="h-100 p-1 shadow rounded">
+					<h3 class="py-3 fs-5 text-center">
+						<i class="bi bi-share fw-bold fs-5 me-2"></i>Partage
+					</h3>
+					<p class="text-center">Partagez le plaisir de la lecture avec vos amis et collègues en utilisant la fonction de partage de Notre Bibliothèque Numérique. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bilan-service" class="my-3">	
+			<div id="bilan-service1" class="my-2">
+				<div class="row container m-auto py-5 gx-1 bilan">
+					<div class="col-md-3 d-flex flex-row justify-content-between">
+						<div class="d-flex flex-column justify-content-between col-6 col-md-9">
+							<h3 class="fs-1">732</h3>
+							<p> <span class="fw-bold">Clients satisfaits</span></p>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex flex-row justify-content-between">
+						<div class="d-flex flex-column justify-content-between col-6 col-md-9">
+							<h3 class="fs-1">521</h3>
+							<p> <span class="fw-bold">Ventes </span></p>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex flex-row justify-content-between">
+						<div class="d-flex flex-column justify-content-between col-6 col-md-9">
+							<h3 class="fs-1">1 463</h3>
+							<p> <span class="fw-bold">Prêt</span></p>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex flex-row justify-content-between">
+						<div class="d-flex flex-column justify-content-between col-6 col-md-9">
+							<h3 class="fs-1">815</h3>
+							<p> <span class="fw-bold">Téléchargements</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center py-5">
+				<h3 class="text-capitalize text-light">accéder à notre bibliothéque</h3>
+				<p class="text-light my-3 px-5 text-shadow">
+					Prêt à commencer votre voyage littéraire ? L'application web de Notre Bibliothèque Numérique offre une expérience utilisateur exceptionnelle, avec des fonctionnalités avancées de recherche, des recommandations personnalisées et un accès rapide à votre bibliothèque personnelle. Cliquez sur le bouton ci-dessous pour accéder à l'application et commencez votre exploration dès maintenant.
+				</p>
+				<button class="btn rounded-pill border border-light text-light text-uppercase m-auto px-4" type="button" id="btn_visitez">visitez notre bibliothéque</button>
+			</div>
+		</div>	
+	</section>	
+
+<!-- ==========================================
+				  SECTION TESTIMONIALS
+	 ================        ================== -->	
+	<section id="testimonial" class="py-3 my-4">
+		<div class="container">
+			<h2 class="text-center text-capitalize my-3">Témoignages</h2>
+				<p class="text-center py-3">
+					Découvrez ce que nos utilisateurs disent à propos de leur expérience avec Notre Bibliothèque Numérique. Ces témoignages reflètent l'impact positif que notre bibliothèque a eu sur la vie de nos utilisateurs, en les connectant à un trésor de connaissances et en facilitant l'accès à des œuvres littéraires exceptionnelles.
+				</p>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="col-12 p-3 mb-3 mt-2 bg-white shadow">
+						<p class="fst-italic">
+							<span class="fw-bold">"Une Ressource Inestimable"</span> <br>
+							"Notre Bibliothèque Numérique est une ressource inestimable pour les amoureux de la lecture comme moi. La diversité des œuvres disponibles m'a permis de découvrir des chefs-d'œuvre que je n'aurais jamais trouvés autrement. Merci pour cette source infinie d'inspiration et de savoir." 
+						</p>
+					</div>
+					<p>
+						<span class="fw-bold text-capitalize">Lamine Ndiaye</span> <br>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="col-12 p-3 mb-3 mt-2 bg-white shadow">
+						<p class="fst-italic">
+							<span class="fw-bold">"Facilité d'Utilisation Exceptionnelle"</span> <br>
+							"Ce que j'apprécie le plus chez Notre Bibliothèque Numérique, c'est la facilité d'utilisation. La navigation intuitive et les outils de recherche avancés rendent la découverte de nouveaux livres et la recherche d'informations passionnantes et sans effort." 
+							<br><br>
+						</p>
+					</div>
+					<p>
+						<span class="fw-bold text-capitalize">Mar Gaye</span> <br> 
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="col-12 p-3 mb-3 mt-2 bg-white shadow">
+						<p class="fst-italic">
+							<span class="fw-bold">"Une Bibliothèque pour Tous"</span> <br>
+							"En tant qu'étudiant, j'apprécie énormément l'accessibilité universelle de cette bibliothèque. Peu importe où je me trouve, je peux accéder à mes livres préférés et effectuer des recherches pour mes études. Une bibliothèque pour tous, c'est exactement ce dont j'avais besoin."
+							<br><br>
+						</p>
+					</div>
+					<p>
+						<span class="fw-bold text-capitalize">Aby Seck</span> <br>
+					</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+<!-- ==========================================
+				   SECTION TEAM
+	 ================        ================== -->	   
+	<section id="team" class="container py-3">
+		<h2 class="text-center text-capitalize my-3">Team</h2>
+		<p class="text-center py-3">
+			Bienvenue dans l'univers de Notre Bibliothèque Numérique, où chaque membre de notre équipe partage une passion commune pour la littérature et l'accès à la connaissance. Découvrez les visages derrière la magie de notre bibliothèque et apprenez à connaître ceux qui travaillent ardemment pour rendre votre expérience de lecture exceptionnelle.
+		</p>
+
+		<div class="row text-center position-relative" id="team_card">
+			<div class="col-9 mx-auto col-md-4 gy-5 position-relative">
+				<img src="IMG/sam.jpg" class="">
+				<p class="text-capitalize p-3 p-md-0 shadow p-lg-2 m-auto position-absolute taille">
+					<span class="fw-bold text-capitalize">Sam Lahi Ndoye</span> <br>______<br>
+					<small class="fst-italic">web Designer</small>
+				</p>
+			</div>
+			<div class="col-9 mx-auto col-md-4 gy-5 position-relative">
+				<img src="IMG/vito.jpg" class="img-fluid">
+				<p class="text-capitalize p-3 p-md-0 shadow p-lg-2 m-auto position-absolute taille">
+					<span class="fw-bold text-capitalize">Madické Diéye</span> <br>_____ <br>
+					<small class="fst-italic">web master</small>
+				</p>
+			</div>
+			<div class="col-9 mx-auto col-md-4 gy-5 position-relative">
+				<img src="IMG/mamadou.jpg" class="img-fluid">
+				<p class="text-capitalize p-3 p-md-0 shadow p-lg-2 m-auto position-absolute taille">
+					<span class="fw-bold text-capitalize">mamadou Bhoye sow</span> <br>______<br>
+					<small class="text-uppercase fst-italic">programmer</small>
+				</p>
+			</div>
+			<div class="col-9 mx-auto col-md-4 gy-5 position-relative">
+				<img src="IMG/goumbala.jpg" class="img-fluid">
+				<p class="text-capitalize p-3 p-md-0 shadow p-lg-2 m-auto position-absolute taille">
+					<span class="fw-bold text-capitalize">cheikh goumbala</span> <br>______<br>
+					<small class="text-uppercase fst-italic">data analyst</small>
+				</p>
+			</div>
+		</div>
+	</section> <br><br>
+
+<!-- ==========================================
+				  SECTION CONTACT
+	 ================        ================== -->	 
+	<section id="contact" class="py-3 mt-4">
+		<div class="container">
+			<h2 class="text-center text-capitalize my-3">Contact</h2>
+			<p class="text-center py-3">
+				Avez-vous des questions, des suggestions ou simplement envie de partager votre passion pour la lecture ? Notre équipe est là pour vous écouter. N'hésitez pas à nous contacter.
+			</p>
+
+			<div class="row text-center my-3 gy-2 gx-2">
+				<div class="col-12 col-lg-6 p-1 ">
+					<div class="shadow bg-white p-3">
+						<i class="bi bi-geo-alt"></i>
+						<p class="fw-bold text-capitalize">notre adresse</p>
+						<p class="text-wrap">Dakar, près de l'hopital SAMU</p>
+					</div>	
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 p-1">
+					<div class="shadow bg-white p-3">
+						<i class="bi bi-envelope"></i>
+						<p class="fw-bold text-capitalize">Enoyez-nous un mail</p>
+						<p class="text-wrap">admin@ipd.sn</p>
+					</div>	
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 p-1">
+					<div class="shadow bg-white p-3">	
+						<i class="bi bi-telephone"></i>
+						<p class="fw-bold text-capitalize">Téléphone</p>
+						<p>+221 33 867 90 45 / 77 529 84 88</p>
+					</div>	
+				</div>
+			</div>	
+
+			<div class="row my-3 py-4">
+				<div class="col-md-6 text-end">
+					<img src="IMG/carte.png" class="img-fluid w-100">
+				</div>
+				<div class="col-md-6 bg-white pt-3 shadow d-flex flex-column justify-content-between">
+					<div class="row">
+						<div class="mb-3 col-md-6">
+						    <input type="text" class="form-control col-md-3" id="prenom" placeholder="Prenom">
+						</div>				    
+						<div class="mb-3 col-md-6">    
+						    <input type="text" class="form-control col-md-3" id="nom" placeholder="Nom">
+						</div>
+					</div>	
+					<div class="mb-3">
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Example textarea"></textarea>
+					</div>
+					<div class="col-3 text-center mx-auto">
+					    <button type="submit" class="btn text-capitalize mb-3 bouton-form">send message</button>
+					 </div>
+				</div>
+			</div>
+		</div>	
+		<br><br>
+	</section> 
+</body>
+
+<footer class="position-relative pt-3">
+	<div class="row container py-3 text-light m-auto position-relative">
+		<div class="col-md-6 col-lg-4 bg-white p-3 text-center position-relative contact">
+			<h2>LaBilbliothéque</h2>
+			<p class="fs-6">
+				Ce site a été conçu dans le cadre d'un projet de mémoire pour l'obtention du diplome de license (IPD Thomas Sankara) <br>
+				<a href="https://www.ipd.sn/" target="_blank">Administration</a>
+			</p>
+			<p class="fs-6">
+				Sud-Foire Dakar, <br>  
+				Adresse: N°8477
+			</p>
+			<p class="fs-6">
+				<span class="fw-bold">Téléhone</span>: +221 33 867 90 45 / 77 529 84 88<br>
+				<span class="fw-bold">Email:</span> admin@ipd.sn 
+			</p>
+		</div>
+		<div class="col-md-6 col-lg-2 px-4">
+			<h3>Liens Utiles</h3>
+			<li><p><span class="chevron">></span> <a href="#" class="text-decoration-none text-light">Home</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#" class="text-decoration-none text-light">About us</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#" class="text-decoration-none text-light">Services</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#" class="text-decoration-none text-light">Terms of service</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#" class="text-decoration-none text-light">Privacy policy</a></p></li>
+		</div>
+		<div class="col-md-6 col-lg-2 px-4">
+			<h3 class="text-capitalize">Site créé par</h3>
+			<li><p><span class="chevron">></span> <a href="#team" class="text-decoration-none text-light">Madické Diéye</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#team" class="text-decoration-none text-light">Mamadou Bhoye Sow</a></p></li>
+			<li><p><span class="chevron">></span> <a href="https://www.linkedin.com/in/ndoye-sam-lahi-085b59246/" target="_blank" class="text-decoration-none text-light">Sam Lahi Ndoye</a></p></li>
+			<li><p><span class="chevron">></span> <a href="#team" class="text-decoration-none text-light">Cheikh Goumbala</a></p></li>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<h3>Notre Newsletter</h3>
+			<p class="fs-6">Ne manquez jamais une mise à jour, une recommandation de livre passionnante ou une offre exclusive. Inscrivez-vous à notre newsletter pour rester connecté avec Notre Bibliothèque Numérique et être informé en avant-première de tout ce qui se passe dans le monde littéraire.</p>
+			<div class="d-flex flex-row">
+				<input type="email" class="form-control bg-white rounded-0" id="exampleFormControlInput1" placeholder="Votre email">
+				<button type="submit" class="btn text-capitalize text-light mb-3 rounded-0 bouton-form">Abonné</button>
+			</div>
+		</div>
+		<hr class="my-3">
+		<p class="text-center fs-6">© Copyright <span class="fw-bold">Sti3/IPD Thomas Sankara</span>. Tous droits réservés</p>
+		<p class="text-center fs-6">Mémoire 2023</p>
+	</div>
+</footer>
+</html>
